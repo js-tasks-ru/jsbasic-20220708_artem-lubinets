@@ -8,7 +8,7 @@ export default class StepSlider {
     this._init();
   }
   
-  render() {
+  _render() {
     let currentStep = 100 / (this._steps - 1) * this._value;
 
     this._slider = createElement(`
